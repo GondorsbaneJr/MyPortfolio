@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/1.jpg");
+    background-image: url(../images/contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -7,22 +7,42 @@ body {
 }
 
 h1 {
-    color: #000;
+    color: white;
 }
-
 h2 {
-    color: #000;
+    color: white;
 }
 h3 {
-    color: #000;
+    color: white;
 }
 h4 {
-    color: #000;
+    color: white;
 }
 h5 {
-    color: #000;
+    color: white;
 }
 h6 {
-    color: #000;
+    color: white;
+}
+p {
+    color: white;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:link {
+    color: white;
+}
+ul {
+    color: white;
 }
 
