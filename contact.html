@@ -8,6 +8,8 @@
     <title>Contact</title>
 </head>
 <body>
+    <!--navigation bar-->
+
     <!--contact info-->
     <h1 align="center">Contact</h1>
     <p align="center">Phone: 0435684596</p>
@@ -15,6 +17,21 @@
         <a href="mailto: wpkeleher@williamkeleher.tech">wpkeleher@williamkeleher.tech</a>
     </p>
     <p align="center">My working hours are 9am to 5pm on weekends.</p>
+    <p align="center">I am located in Brisbane, Australia.</p>
+    <p align="center">I am not available for hire at the moment.</p>
+    
+    <!--contact form-->
+    <form action="contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+        <label align="center" for="subject">Subject:</label>
+        <textarea align="center" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+
+
 
 </body>
 </html>
