@@ -95,7 +95,14 @@ a.active,a:hover {
         left: 0;
     }
 }
-
+section {
+    background: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
 
 h1 {
     color: white;
