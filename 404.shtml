@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/css/404.css">
+        <TITLE>404 Not Found</TITLE>
+    </head>
+    <body>
+        <h1>ERROR 404</h1>
+        <h3>SITE NOT FOUND</h3>
+        The requested URL <!--#echo var="REQUEST_URI" --> was not found on this server.
+        <HR>
+        <I><!--#echo var="HTTP_HOST" --></I>
+    </body>
+</html>
